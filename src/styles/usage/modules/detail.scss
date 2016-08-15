@@ -1,0 +1,24 @@
+.detail{
+	@include flexbox();
+	@include flex-direction(column);
+	width:100%;
+	height:100%;
+	background:#fefefe;
+	header{
+		height:.44rem;
+		line-height:.44rem;
+		background:green;
+		padding-left:0.1rem;
+		@include box-sizing(border-box);
+
+	}
+	section{
+		@include flex(1);
+		background:#fefefe;
+		p{
+			img{
+			width:100%;
+			}
+		}
+	}
+}

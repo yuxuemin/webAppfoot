@@ -1,0 +1,70 @@
+<div class="m-home">
+	<header>
+			<ul>
+				<li class="yo-ico">&#xe745;</li>
+				<li>
+					<ul id="title">
+						<li action-type="switch.title" class="active">热点</li>
+						<li action-type="switch.title">关注</li>
+					</ul>
+				</li>
+				<li class="yo-ico">&#xe684;</li>
+			</ul>
+		</header>
+		<div class="swiper-container" id="swiper-home">
+  			<div class="swiper-wrapper">
+			    <div class="swiper-slide">
+			    	<nav>
+						<ul>
+							<li action-type="slide.tap" class="active">足球现场</li>
+							<li action-type="slide.tap">足球生活</li>
+							<li action-type="slide.tap">足球美女</li>
+						</ul>
+					</nav>
+	<section spa-widget="scroll">
+		<div class="swiper-container" id="swiper-hot">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="scroller" spa-widget="scroll" data-scroll-id="homeListScroll">
+						<div>
+						 <div class="head">
+				            <img src="/webApp/images/arrow.png" alt="">
+				            <span>下拉刷新</span>
+				          </div>
+						  <ul ms-repeat-value="livedata">
+								<li action-type="goto.detail">                                     <img ms-src="value[0].img">
+									<b ms-text="value[0].title"></b>
+								</li>
+								<li></li>
+								<li ms-class-hide="!value[1]" action-type="goto.detail">
+									<img ms-src="value[1].img">
+									<b ms-text="value[1].title"></b>
+								</li>
+						   </ul>
+						   <div class="foot">
+                          		<img src="/webApp/images/arrow.png" alt="">
+                          		<span>上拉加载</span>
+                       		</div>
+						</div>					
+					</div>
+						  	</div>
+						    <div class="swiper-slide">
+						    	足球生活
+						    </div>
+						    <div class="swiper-slide">
+						    	足球美女
+						    </div>
+						    
+						  </div>
+						</div>
+						
+					</section>
+			    </div>
+			    <div class="swiper-slide">
+			    	关注。。。。。。
+			    </div>
+			    
+			  </div>
+		</div>
+		
+</div>

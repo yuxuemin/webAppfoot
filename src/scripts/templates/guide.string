@@ -1,0 +1,10 @@
+<div class="swiper-container" id="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="images/slide1.png"></div>
+    <div class="swiper-slide"><img src="images/slide2.png"></div>
+    <div class="swiper-slide"><img src="images/slide3.png"></div>
+    <div class="swiper-slide"><img src="images/slide4.png">
+    	<p action-type="go.home"></p>
+    </div>
+  </div>
+</div>
