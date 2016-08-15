@@ -14,5 +14,5 @@ require("./views/detail.js");
 //配置默认视图
 SPA.config({
 
-	indexView:"guide"
+	indexView:"index"
 })
