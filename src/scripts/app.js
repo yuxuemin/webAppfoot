@@ -9,6 +9,7 @@ require("./views/home.js");
 require("./views/search.js");
 require("./views/my.js");
 require("./views/detail.js");
+require("./views/login.js");
 
 
 //配置默认视图
