@@ -18,5 +18,5 @@ SPA.config({
 	indexView:"index"
 })
 
-
+console.log("yxm");
 
