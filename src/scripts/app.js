@@ -17,3 +17,6 @@ SPA.config({
 
 	indexView:"index"
 })
+
+
+
